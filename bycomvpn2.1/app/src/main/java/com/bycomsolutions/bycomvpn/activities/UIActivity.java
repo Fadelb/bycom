@@ -172,7 +172,7 @@ public abstract class UIActivity extends AppCompatActivity implements View.OnCli
             for (String adapterClass : statusMap.keySet()) {
                 AdapterStatus status = statusMap.get(adapterClass);
                 assert status != null;
-                Log.d("BycomVPN", String.format(
+                Log.d("MogaVPN", String.format(
                         "Adapter name: %s, Description: %s, Latency: %d",
                         adapterClass, status.getDescription(), status.getLatency()));
             }
@@ -343,7 +343,7 @@ public abstract class UIActivity extends AppCompatActivity implements View.OnCli
                 Map<String, AdapterStatus> statusMap = initializationStatus.getAdapterStatusMap();
                 for (String adapterClass : statusMap.keySet()) {
                     AdapterStatus status = statusMap.get(adapterClass);
-                    Log.d("MyApp", String.format(
+                    Log.d("MogaVPN", String.format(
                             "Adapter name: %s, Description: %s, Latency: %d",
                             adapterClass, status.getDescription(), status.getLatency()));
                 }

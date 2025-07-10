@@ -33,9 +33,7 @@
         tools:ignore="GoogleAppIndexingWarning,LockedOrientationActivity"
         >
 
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/admob_app_ID" />
+        <!-- AdMob App ID meta-data removed -->
 
         <service
             android:name=".utils.VPNTileService"
@@ -93,12 +91,7 @@
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait" />
 
-
-
-        <activity
-            android:name="com.facebook.ads.AudienceNetworkActivity"
-            android:exported="false"
-            android:hardwareAccelerated="true" />
+        <!-- Facebook Ads Activity removed -->
 
 
     </application>

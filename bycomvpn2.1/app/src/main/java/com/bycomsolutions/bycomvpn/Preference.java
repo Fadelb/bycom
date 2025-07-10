@@ -11,7 +11,7 @@ public class Preference {
 
     public Preference(Context context) {
         this.context = context;
-        this.appSharedPrefs = context.getSharedPreferences("bycomvpn_pref", Activity.MODE_PRIVATE);
+        this.appSharedPrefs = context.getSharedPreferences("mogavpn_pref", Activity.MODE_PRIVATE);
         this.prefsEditor = appSharedPrefs.edit();
     }
 

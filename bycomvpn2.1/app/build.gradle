@@ -5,13 +5,13 @@ apply plugin: 'com.android.application'
 
 
 android {
-    namespace 'com.bycomsolutions.bycomvpn'
+    namespace 'com.mogavpn.app'
     compileSdk 34
     buildFeatures {
         buildConfig = true
     }
     defaultConfig {
-        applicationId "com.bycomsolutions.bycomvpn"
+        applicationId "com.mogavpn.app"
         minSdkVersion 28
         targetSdkVersion 34
         versionCode 21
@@ -26,7 +26,7 @@ android {
         buildConfigField "String", "ENVATO_PURCHASE_CODE", "\"YOUR_CODE(eg-f1dbada5-0175-4599-8ff7-195f3125af21)\""
         buildConfigField "String", "CODESTER_PURCHASE_CODE", "\"YOUR_CODE(eg-LCN1198)\""
 
-        buildConfigField "String", "SHARED_PREFS", "\"BYCOM_SHAREDPREFS\""
+        buildConfigField "String", "SHARED_PREFS", "\"MOGAVPN_SHAREDPREFS\""
         buildConfigField "String", "PREFERENCE_KEY_EXCLUDED_LIST", "\"APPLIST_EXCLUDED\""
 
         buildConfigField "Boolean", "USE_IN_APP_PURCHASE", "true"
@@ -35,7 +35,7 @@ android {
         buildConfigField "String", "SIX_MONTH", "\"6month_sub\""
         buildConfigField "String", "YEARLY", "\"1year_sub\""
 
-        buildConfigField "Boolean", "GOOGlE_AD", "true"
+        buildConfigField "Boolean", "GOOGlE_AD", "false"
         buildConfigField "String", "GOOGLE_BANNER", "\"ca-app-pub-3199095846318242/6669806704\""
         buildConfigField "String", "GOOGLE_INTERSTITIAL", "\"ca-app-pub-3199095846318242/4043643365\""
 
@@ -59,8 +59,8 @@ dependencies {
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
     implementation "androidx.core:core-splashscreen:1.0.1"
     implementation 'com.github.akshaaatt:Google-IAP:1.7.0'
-    implementation 'com.google.ads.mediation:facebook:6.18.0.0'
-    implementation 'com.google.android.gms:play-services-ads:23.5.0'
+   // implementation 'com.google.ads.mediation:facebook:6.18.0.0' // Removed Facebook Ads
+   // implementation 'com.google.android.gms:play-services-ads:23.5.0' // Removed Google Ads
    // implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.22'
 }
 
