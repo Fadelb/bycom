@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background">#0A192F</color> <!-- Dark Navy Blue -->
-    <color name="primary">#3399FF</color> <!-- Strong Blue -->
-    <color name="primary_light">#66B2FF</color> <!-- Lighter Blue -->
-    <color name="white">#FFFFFF</color>
-    <color name="light_blue">#ADD8E6</color> <!-- Light Blue - adjusted -->
+    <!-- Existing mapped colors -->
+    <color name="background">#121212</color> <!-- Primary Background: Dark Gray -->
+    <color name="primary">#3b82f6</color> <!-- Primary Accent: Electric Blue -->
+    <color name="primary_light">#1D4ED8</color> <!-- Button/Action Primary: Royal Blue (repurposing primary_light) -->
+    <color name="white">#FFFFFF</color> <!-- Text Primary: White -->
 
+    <!-- New specific colors from the palette -->
+    <color name="secondary_accent">#10B981</color> <!-- Secondary Accent: Emerald Green -->
+    <color name="card_background">#1e1e1e</color> <!-- Card/Container Background: Charcoal Gray -->
+    <color name="text_secondary">#B0B0B0</color> <!-- Text Secondary: Light Gray -->
+    <color name="button_secondary">#00BFAE</color> <!-- Button/Action Secondary: Teal -->
+    <color name="error_alert">#DC2626</color> <!-- Error/Alert: Crimson Red -->
+    <color name="divider_border">#2F3741</color> <!-- Divider & Border: Midnight Blue -->
+    <color name="success_confirmation">#22C55E</color> <!-- Success/Confirmation: Vibrant Green -->
 
+    <!-- Deprecated from previous scheme if not directly mapped, e.g. light_blue, can be removed or commented -->
+    <!-- <color name="light_blue">#ADD8E6</color> -->
 </resources>
